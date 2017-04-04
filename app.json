@@ -1,0 +1,11 @@
+{
+  "name": "md5",
+  "description": "Have your own md5 encrypt decrypt tool.",
+  "repository": "https://github.com/cagataycali/md5",
+  "logo": "https://raw.githubusercontent.com/cagataycali/l00g.in/master/logo.png",
+  "keywords": ["md5", "community"],
+  "website": "https://l00g.in",
+  "addons": [
+    "mongolab"
+  ]
+}

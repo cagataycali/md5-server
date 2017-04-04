@@ -1,0 +1,17 @@
+{
+  "name": "md5-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "md5": "^2.2.1",
+    "mongoose": "^4.8.3",
+    "socket.io": "^1.7.2"
+  }
+}
