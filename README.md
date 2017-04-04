@@ -6,6 +6,11 @@
 
 You have to connect with socket io client.
 
+And you have to enable session affinity in herokuapp
+```
+heroku features:enable http-session-affinity
+```
+
 ```javascript
 var socket = io.connect('https://yourapp.herokuapp.com');
 socket.on('encrypted', function (data) {
